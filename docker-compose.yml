@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+    dev:
+        container_name: lem_api_dev
+        image: lem-api-dev:1.0.0
+        build:
+            context: .
+            target: development
+            dockerfile: ./Dockerfile
+        command: npm run start:dev
+        ports:
+            - 3000:3000
+            - 9229:9229
+        networks:
+            - lem-network
+        volumes:
+            - .:/usr/src/app
+            - /usr/src/app/node_modules
+        depends_on:
+            - mssql
+        restart: unless-stopped
+    prod:
+        container_name: lem_api_prod
+        image: lem-api-prod:1.0.0
+        build:
+            context: .
+            target: production
+            dockerfile: ./Dockerfile
+        command: npm run start:prod
+        ports:
+            - 3000:3000
+            - 9229:9229
+        networks:
+            - lem-network
+        volumes:
+            - .:/usr/src/app
+            - /usr/src/app/node_modules
+        restart: unless-stopped
+    mssql:
+        container_name: lem_api_db
+        image: 'mcr.microsoft.com/mssql/server'
+        ports:
+            - '1433:1433'
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=Secret1234
+        networks:
+            - lem-network
+        volumes:
+            - './drive:/var/opt/mssql'
+
+networks:
+    lem-network:

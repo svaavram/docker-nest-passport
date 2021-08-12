@@ -1,0 +1,97 @@
+2021-08-11 17:44:19.96 Server      Microsoft SQL Server 2019 (RTM-CU12) (KB5004524) - 15.0.4153.1 (X64) 
+	Jul 19 2021 15:37:34 
+	Copyright (C) 2019 Microsoft Corporation
+	Developer Edition (64-bit) on Linux (Ubuntu 20.04.2 LTS) <X64>
+2021-08-11 17:44:19.97 Server      UTC adjustment: 0:00
+2021-08-11 17:44:19.97 Server      (c) Microsoft Corporation.
+2021-08-11 17:44:19.97 Server      All rights reserved.
+2021-08-11 17:44:19.97 Server      Server process ID is 384.
+2021-08-11 17:44:19.97 Server      Logging SQL Server messages in file '/var/opt/mssql/log/errorlog'.
+2021-08-11 17:44:19.97 Server      Registry startup parameters: 
+	 -d /var/opt/mssql/data/master.mdf
+	 -l /var/opt/mssql/data/mastlog.ldf
+	 -e /var/opt/mssql/log/errorlog
+2021-08-11 17:44:19.98 Server      SQL Server detected 6 sockets with 1 cores per socket and 1 logical processors per socket, 6 total logical processors; using 6 logical processors based on SQL Server licensing. This is an informational message; no user action is required.
+2021-08-11 17:44:19.99 Server      SQL Server is starting at normal priority base (=7). This is an informational message only. No user action is required.
+2021-08-11 17:44:19.99 Server      Detected 6369 MB of RAM. This is an informational message; no user action is required.
+2021-08-11 17:44:19.99 Server      Using conventional memory in the memory manager.
+2021-08-11 17:44:19.99 Server      Page exclusion bitmap is enabled.
+2021-08-11 17:44:20.03 Server      Buffer pool extension is not supported on Linux platform.
+2021-08-11 17:44:20.03 Server      Buffer Pool: Allocating 1048576 bytes for 939388 hashPages.
+2021-08-11 17:44:20.32 Server      Buffer pool extension is already disabled. No action is necessary.
+2021-08-11 17:44:20.74 Server      Successfully initialized the TLS configuration. Allowed TLS protocol versions are ['1.0 1.1 1.2']. Allowed TLS ciphers are ['ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-ECDSA-AES128-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DHE-RSA-AES256-GCM-SHA384:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES256-SHA:!DHE-RSA-AES128-SHA'].
+2021-08-11 17:44:20.77 Server      Query Store settings initialized with enabled = 1, 
+2021-08-11 17:44:20.79 Server      The maximum number of dedicated administrator connections for this instance is '1'
+2021-08-11 17:44:20.79 Server      Node configuration: node 0: CPU mask: 0x000000000000003f:0 Active CPU mask: 0x000000000000003f:0. This message provides a description of the NUMA configuration for this computer. This is an informational message only. No user action is required.
+2021-08-11 17:44:20.81 Server      Using dynamic lock allocation.  Initial allocation of 2500 Lock blocks and 5000 Lock Owner blocks per node.  This is an informational message only.  No user action is required.
+2021-08-11 17:44:20.82 Server      In-Memory OLTP initialized on lowend machine.
+2021-08-11 17:44:20.89 Server      [INFO] Created Extended Events session 'hkenginexesession'
+2021-08-11 17:44:20.89 Server      Database Instant File Initialization: enabled. For security and performance considerations see the topic 'Database Instant File Initialization' in SQL Server Books Online. This is an informational message only. No user action is required.
+2021-08-11 17:44:20.92 Server      Total Log Writer threads: 2. This is an informational message; no user action is required.
+2021-08-11 17:44:20.95 Server      clflush is selected for pmem flush operation.
+2021-08-11 17:44:20.96 Server      Software Usage Metrics is disabled.
+2021-08-11 17:44:21.09 spid9s      [1]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2021-08-11 17:44:21.10 spid9s      Starting up database 'master'.
+2021-08-11 17:44:21.15 Server      CLR version v4.0.30319 loaded.
+2021-08-11 17:44:21.73 Server      Common language runtime (CLR) functionality initialized.
+2021-08-11 17:44:21.81 spid9s      The tail of the log for database master is being rewritten to match the new sector size of 4096 bytes.  3584 bytes at offset 393728 in file /var/opt/mssql/data/mastlog.ldf will be written.
+2021-08-11 17:44:22.02 spid9s      Converting database 'master' from version 897 to the current version 904.
+2021-08-11 17:44:22.02 spid9s      Database 'master' running the upgrade step from version 897 to version 898.
+2021-08-11 17:44:22.03 spid9s      Database 'master' running the upgrade step from version 898 to version 899.
+2021-08-11 17:44:22.06 spid9s      Database 'master' running the upgrade step from version 899 to version 900.
+2021-08-11 17:44:22.08 spid9s      Database 'master' running the upgrade step from version 900 to version 901.
+2021-08-11 17:44:22.09 spid9s      Database 'master' running the upgrade step from version 901 to version 902.
+2021-08-11 17:44:22.11 spid9s      Database 'master' running the upgrade step from version 902 to version 903.
+2021-08-11 17:44:22.12 spid9s      Database 'master' running the upgrade step from version 903 to version 904.
+2021-08-11 17:44:22.48 spid9s      Resource governor reconfiguration succeeded.
+2021-08-11 17:44:22.48 spid9s      SQL Server Audit is starting the audits. This is an informational message. No user action is required.
+2021-08-11 17:44:22.49 spid9s      SQL Server Audit has started the audits. This is an informational message. No user action is required.
+2021-08-11 17:44:22.61 spid9s      SQL Trace ID 1 was started by login "sa".
+2021-08-11 17:44:22.63 spid9s      Server name is 'a59b92a1e220'. This is an informational message only. No user action is required.
+2021-08-11 17:44:22.65 spid24s     Password policy update was successful.
+2021-08-11 17:44:22.66 spid25s     Always On: The availability replica manager is starting. This is an informational message only. No user action is required.
+2021-08-11 17:44:22.66 spid25s     Always On: The availability replica manager is waiting for the instance of SQL Server to allow client connections. This is an informational message only. No user action is required.
+2021-08-11 17:44:22.67 spid9s      [4]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2021-08-11 17:44:22.67 spid12s     [32767]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2021-08-11 17:44:22.69 spid12s     Starting up database 'mssqlsystemresource'.
+2021-08-11 17:44:22.68 spid9s      Starting up database 'msdb'.
+2021-08-11 17:44:22.69 spid12s     The resource database build version is 15.00.4153. This is an informational message only. No user action is required.
+2021-08-11 17:44:22.73 spid12s     [3]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2021-08-11 17:44:22.73 spid12s     Starting up database 'model'.
+2021-08-11 17:44:23.04 spid24s     A self-generated certificate was successfully loaded for encryption.
+2021-08-11 17:44:23.06 spid24s     Server is listening on [ 'any' <ipv6> 1433].
+2021-08-11 17:44:23.06 spid24s     Server is listening on [ 'any' <ipv4> 1433].
+2021-08-11 17:44:23.07 Server      Server is listening on [ ::1 <ipv6> 1434].
+2021-08-11 17:44:23.08 Server      Server is listening on [ 127.0.0.1 <ipv4> 1434].
+2021-08-11 17:44:23.08 Server      Dedicated admin connection support was established for listening locally on port 1434.
+2021-08-11 17:44:23.10 spid24s     Server is listening on [ ::1 <ipv6> 1431].
+2021-08-11 17:44:23.11 spid24s     Server is listening on [ 127.0.0.1 <ipv4> 1431].
+2021-08-11 17:44:23.12 spid24s     SQL Server is now ready for client connections. This is an informational message; no user action is required.
+2021-08-11 17:44:23.49 spid9s      The tail of the log for database msdb is being rewritten to match the new sector size of 4096 bytes.  3072 bytes at offset 50176 in file /var/opt/mssql/data/MSDBLog.ldf will be written.
+2021-08-11 17:44:23.53 spid9s      Converting database 'msdb' from version 897 to the current version 904.
+2021-08-11 17:44:23.53 spid9s      Database 'msdb' running the upgrade step from version 897 to version 898.
+2021-08-11 17:44:23.54 spid9s      Database 'msdb' running the upgrade step from version 898 to version 899.
+2021-08-11 17:44:23.55 spid12s     The tail of the log for database model is being rewritten to match the new sector size of 4096 bytes.  512 bytes at offset 73216 in file /var/opt/mssql/data/modellog.ldf will be written.
+2021-08-11 17:44:23.60 spid9s      Database 'msdb' running the upgrade step from version 899 to version 900.
+2021-08-11 17:44:23.64 spid9s      Database 'msdb' running the upgrade step from version 900 to version 901.
+2021-08-11 17:44:23.66 spid12s     Converting database 'model' from version 897 to the current version 904.
+2021-08-11 17:44:23.66 spid12s     Database 'model' running the upgrade step from version 897 to version 898.
+2021-08-11 17:44:23.66 spid9s      Database 'msdb' running the upgrade step from version 901 to version 902.
+2021-08-11 17:44:23.67 spid12s     Database 'model' running the upgrade step from version 898 to version 899.
+2021-08-11 17:44:23.71 spid12s     Database 'model' running the upgrade step from version 899 to version 900.
+2021-08-11 17:44:23.74 spid12s     Database 'model' running the upgrade step from version 900 to version 901.
+2021-08-11 17:44:23.76 spid12s     Database 'model' running the upgrade step from version 901 to version 902.
+2021-08-11 17:44:23.77 spid12s     Database 'model' running the upgrade step from version 902 to version 903.
+2021-08-11 17:44:23.78 spid12s     Database 'model' running the upgrade step from version 903 to version 904.
+2021-08-11 17:44:23.89 spid12s     Clearing tempdb database.
+2021-08-11 17:44:24.92 spid12s     [2]. Feature Status: PVS: 0. CTR: 0. ConcurrentPFSUpdate: 1.
+2021-08-11 17:44:24.92 spid12s     Starting up database 'tempdb'.
+2021-08-11 17:44:25.38 spid12s     The tempdb database has 1 data file(s).
+2021-08-11 17:44:25.38 spid29s     The Service Broker endpoint is in disabled or stopped state.
+2021-08-11 17:44:25.38 spid29s     The Database Mirroring endpoint is in disabled or stopped state.
+2021-08-11 17:44:25.41 spid29s     Service Broker manager has started.
+2021-08-11 17:44:25.43 spid9s      Database 'msdb' running the upgrade step from version 902 to version 903.
+2021-08-11 17:44:25.44 spid9s      Database 'msdb' running the upgrade step from version 903 to version 904.
+2021-08-11 17:44:25.60 spid9s      Recovery is complete. This is an informational message only. No user action is required.
+2021-08-11 17:44:25.63 spid25s     The default language (LCID 0) has been set for engine and full-text services.
+2021-08-11 17:44:29.68 spid25s     The tempdb database has 6 data file(s).
